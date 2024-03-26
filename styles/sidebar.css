@@ -1,0 +1,27 @@
+.home,.explore,.subscription,.orignals,.yt-music,.library{
+  height:22px;
+}
+.sidebar{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width:80px;
+  position: fixed;
+  top:60px;
+  left:0px;
+  bottom:0px;
+}
+.sidebar-in-div:hover{
+  background-color: rgb(237, 235, 235);
+  cursor:pointer;
+}
+.sidebar-in-div{
+  width: 80px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height:80px;
+}
+

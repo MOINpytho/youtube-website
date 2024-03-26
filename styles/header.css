@@ -1,0 +1,195 @@
+.header{
+  background-color: white;
+  height: 60px;
+  display: flex;
+  position:fixed;
+  top:0px;
+  left:0px;
+  right: 0px;
+  flex-direction:row ;
+  align-items: start;
+  justify-content:space-between ;
+  z-index: 1;
+  border-bottom-width: 1px;
+  border-bottom-style:solid ;
+  border-bottom-color: rgb(240,240,240) ;
+}
+.left-sec{
+  margin-top: 15px;
+  display: flex;
+  width: 190px;
+  align-items: center;
+}
+.mid-sec{
+  margin-top: 15px;
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 55px;
+  max-width: 660px;
+}
+.right-sec{
+  margin-top: 15px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.hamburger-menu , .ytlogo{
+  height:21px;
+  margin-left: 20px;
+}
+.hamburger-menu:hover{
+  cursor: pointer;
+}
+.ytlogo:hover{
+  cursor: pointer;
+}
+.search-img-btn {
+  position: relative;
+  width: 55px;
+  background-color: lightgray;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-left: none;
+  padding:8px 15px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius:20px ;
+}
+.search-img-btn:hover .search-tt{
+  transition: 0.3s;
+  opacity: 0.9;
+}
+.search-img-btn:hover{
+  cursor: pointer;
+}
+.search-tt{
+  border-radius: 4px;
+  position: relative;
+  top:20px;
+  right:13px;
+  font-size: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(121, 117, 117);
+  color:white;
+  padding:10px;
+  width:30px;
+  opacity:0;
+  font-weight: 700;
+}
+.voice-search-img-btn{
+  height: 40px;
+  width:40px;
+  border:none;
+  margin-left: 10px;
+  background-color: lightgray;
+  padding: 8px 8px;
+  border-radius: 50%;
+  opacity:0.8;
+}
+.voice-search-img-btn:hover{
+  cursor:pointer;
+}
+.voice-search-img-btn:hover .voice-search-tt{
+  opacity:0.9;
+  transition: 0.3s;
+}
+.voice-search-tt{
+  border-radius: 4px;
+  position: relative;
+  top:20px;
+  right:40px;
+  font-size: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(121, 117, 117);
+  color:white;
+  padding:10px 0px; 
+  width:120px;
+  height: 18px;
+  opacity:0;
+  font-weight: 700;
+}
+.voice-search-img-btn:hover{
+  opacity: 1;
+}
+.upload-btn{
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width:35px;
+  border:none;
+  background-color: white;
+}
+.upload-btn:hover .upload-tt{
+  opacity:0.9;
+  transition: 0.3s;
+}
+.upload-tt{
+  border-radius: 4px;
+  position: relative;
+  top:55px;
+  right:40px;
+  font-size: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(121, 117, 117);
+  color:white;
+  padding:10px 10px; 
+  height: 18px;
+  opacity:0;
+  font-weight: 700;
+}
+.yt-apps , .notifications{ 
+  height:25px;
+  padding: 0px;
+  margin-left: 15px;
+}
+.upload-btn:hover{
+  cursor:pointer;
+}
+.yt-apps{
+  cursor: pointer;
+}
+.notifications:hover{
+  cursor: pointer;
+}
+.notif-count:hover{
+  cursor: pointer;
+}
+.notif-div{
+  position:relative;
+}
+.notif-count{
+  position:absolute;
+  font-size: 10px;
+  left:28px;
+  top:-5px;
+  font-weight:700;
+  background-color: rgb(219, 4, 4);
+  color:white;
+  border-radius: 50%;
+  padding:1.5px 4px;
+  border-style: solid;
+}
+.ytprofile{
+  height: 35px;
+  border-radius: 50%;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.search-txtbox{
+  flex:1;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-width: 1px;
+  padding: 10px 15px;
+  border-right: none;
+}

@@ -1,0 +1,112 @@
+.container{
+  display: block;
+  width:400px;
+  border-color: gray;
+  border:none;
+  border-radius: 2px;
+  box-shadow: 0 0  3px rgba(0,0,0,0.5);
+  padding: 5px 15px;
+}
+.messages{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+.inbox-head{
+  color:grey;
+  font-size: 12px;
+}
+p{
+  margin:0px 0px;
+}
+.msg-container{
+  margin-left: 10px;
+  flex:1;
+}
+.msg-head{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name{
+  font-weight:800 ;
+}
+.time{
+  color:gray;
+  font-size: 12px;
+  font-weight: 600;
+}
+.topic{
+  font-size: 12px;
+  font-weight: 800;
+}
+.msg{
+  font-size: 12px;
+  color:rgb(118, 109, 109);
+  font-weight: 600;
+}
+.img-container{
+  display: flex;
+  align-items:center;
+}
+.img{
+  margin-top: 5px;
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+}
+.container1{
+  display: flex;
+  align-items: start;
+  width:400px;
+  border-color: gray;
+  border:none;
+  border-radius: 2px;
+  box-shadow: 0 0  3px rgba(0,0,0,0.5);
+  padding: 5px 15px;
+}
+.video-content{
+  flex:1;
+  margin-left: 10px;
+}
+.channel-name{
+  display: flex;
+  align-items: center;
+}
+.nickname{
+  margin-left: 5px;
+  color:gray;
+  font-size: 14px;
+}
+.description{
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.link{
+  display: flex;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 20px;
+  height: 90px;
+}
+.thumbnail{
+  width:100px;
+  height: 90px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.ytlink{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  justify-content: center;
+}
+.yttitle{
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 600;
+}

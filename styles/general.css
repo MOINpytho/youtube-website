@@ -1,0 +1,13 @@
+p{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body{
+  padding-left: 100px;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  margin: 0 0;
+  background-color: rgb(249, 249, 249);
+  padding-right: 20px;
+}
